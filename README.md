@@ -1,7 +1,20 @@
 # Awesome Solana Cheatsheet
-🌟 A Solana Cheatsheet for Easy Copy & Paste for Busy Devs
+🌟 A Solana Cheatsheet for Easy Copy & Paste for Busy Devs. 👻 
 
 ## Solana CLI
-1. `solana config get`: Get current RPC URL of the connected Solana cluster and show key pair path. 
+1. `solana --version`: Get the version of Solana CLI.
+2. `solana cluster-version`: Get the version of the Solana cluster that you are currently set to.
+3. `solana config get`: Get current RPC URL of the connected Solana cluster and show key pair path to your local wallet. 
+4. `solana config set --url https://api.devnet.solana.com`: Set the Solana cluster to devnet.
+5. `solana airdrop 10`: Get 10 SOL for free to your default wallet locally! (Of course not available on mainet XD)
+6. `solana balance`: Check your current SOL balance in the default wallet.
+7. `echo 'export RUST_LOG=solana_runtime::system_instruction_processor=trace,solana_runtime::message_processor=info,solana_bpf_loader=debug,solana_rbpf=debug' >> ~/.bashrc`: Enable Rust logs for debugging.
+8. 
+
+## Anchor
+1. `cargo install --git https://github.com/project-serum/anchor anchor-cli --locked`: Update the anchor CLI to the lastest version.
 2. 
 
+## Awesome References
+1. [Building SmartContracts With #Solana and #Rust by David Choi](https://youtu.be/gA7hFdq2h9Q)
+2. 
