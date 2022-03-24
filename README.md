@@ -16,6 +16,7 @@
     - add `--final` at the end of this command to make the program immutable and cannot be redeployed.
 12. `solana program show <account_address>`: Get the information of a deployed program.
 13. `solana program deploy --max-len 200000 <your_program_path>`: When redeploying a program, if the program size of the previous version is more than 2x smaller than the new version, we need to specify the smallest size in bytes that the program is expected to have. Otherwise, the redeployment may fail. Note that `max-len` can only be set during the initial deployment.
+14. `solana-install update`: Update Solana CLI version
 
 ## Rust
 1. `rustup default nightly`: Change Rust to nightly version
